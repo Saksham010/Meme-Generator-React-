@@ -1,1 +1,1 @@
-Resolution : 500 * 550
+Resolution : 550 * 550
