@@ -1,1 +1,1 @@
-Made with React
+Resolution : 500 * 550
