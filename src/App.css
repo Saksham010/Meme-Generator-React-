@@ -1,0 +1,146 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+}
+
+
+
+/* NAVBAR */
+
+.outer-nav{
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 21px 37px 20px 20px;
+
+}
+
+.inner-nav-one{
+  display: flex;
+  align-items: center;
+}
+
+
+.inner-nav-one img{
+  width: 33.1px;
+}
+
+.inner-nav-one h1{
+  font-size:20.75px;
+  font-weight: 700;
+  color:white;
+
+  padding-left: 7px;
+}
+
+
+.inner-nav-two p{
+  font-family: 'Inter', 'Karla', sans-serif;
+  font-size: 12px;
+  color:white;
+}
+
+
+
+/* Section */
+
+.section-container{
+  /* border: 1px red solid; */
+
+  margin: 32px auto;
+  margin-bottom: 0;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+input{
+
+  width: 230px;
+  height: 35px;
+  /* border:none; */
+  border: 1px #D5D4D8 solid;
+  border-radius: 5px;
+  padding:10px;
+}
+
+.input-cover{
+  display: flex;
+  justify-content: space-between;
+  /* padding: 30px; */
+
+}
+
+.generatememe{
+  padding-top: 15px;
+}
+.generatememe button{
+  width: 100%;
+  color:white;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  height: 40px;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 16px;
+
+}
+
+.generatememe button:hover{
+  cursor: pointer;
+  opacity: 0.92;
+
+}
+
+
+/* Image */
+
+.image-container {
+  position: relative;
+  /* border:1px green solid; */
+  margin-top:10px;
+}
+
+.image-container .text{
+
+  position: absolute;
+  width:100%;
+  /* border:1px red solid; */
+  text-align: center;
+  /* left: 50%; */
+  /* transform: translateX(-50%); */
+  color:white;
+  font-family: impact, sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+.topText{
+  top:5%;
+}
+
+.bottomText{
+  bottom:5%;
+}
+
+.image-container img{
+  width: 100%;
+  border-radius: 3px;
+}
